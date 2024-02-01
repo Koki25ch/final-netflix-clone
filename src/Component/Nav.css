@@ -1,0 +1,59 @@
+.nav {
+	position: relative;
+	display: flex;
+}
+
+.nav-container {
+	box-sizing: border-box;
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: center;
+
+	height: 68px;
+	width: 100%;
+	padding: 0px 54px;
+	position: fixed;
+	background-image: linear-gradient(rgb(20, 20, 20), rgba(20, 20, 20, 0));
+	transition: background-image 0.8s ease;
+}
+
+.nav-black {
+	background-image: linear-gradient(rgb(20, 20, 20), rgba(20, 20, 20, 255));
+}
+
+.nf-logo {
+	width: 92.5px;
+	height: 31px;
+}
+
+.list {
+	display: flex;
+	list-style: none;
+}
+.list li a {
+	margin-left: 20px;
+	text-decoration: none;
+	color: white;
+}
+.spacer {
+	flex: 1;
+}
+
+.nav-container .search {
+	margin-right: 15px;
+	padding: 2px 6px;
+	font-size: 24px;
+	color: white;
+}
+.nav-container .bell {
+	margin-right: 15px;
+	padding: 2px 6px;
+
+	font-size: 24px;
+	color: white;
+}
+.nav-container .avater {
+	width: 32px;
+	height: 32px;
+	border-radius: 5px;
+}
